@@ -5,23 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./src/style/reset.css">
     <link rel="stylesheet" href="./src/style/index.css">
+    <script type="module" defer src="./src/script/index.js"></script>
     <title>Document</title>
 </head>
 
 <body>
 
     <header class="container__menu">
+
         <nav>
             <div class="menu__logo">
                 <figure>
                     <img src="./src/img/Tech Blog.png" alt="">
                 </figure>
-                <button><img src="./src/img/abrir.png" alt=""></button>
+
+                <button class="fechado" id="menuOpen"><img alt=""></button>
             </div>
 
-            <div class="menu__body animation">
+            <div class="menu__body ">
                 <ul class="body__sections">
                     <li id="allSections">All</li>
                     <li>CSS</li>
